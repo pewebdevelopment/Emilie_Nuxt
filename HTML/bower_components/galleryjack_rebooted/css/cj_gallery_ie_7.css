@@ -1,0 +1,117 @@
+/* --------------------------------------------- */
+/* Author: http://codecanyon.net/user/CodingJack */
+/* --------------------------------------------- */
+
+/* The social icon buttons */
+#cj-gallery #cj-twitter-follow,
+#cj-gallery #cj-facebook,
+#cj-gallery #cj-twitter,
+#cj-facebook-follow { 
+
+	margin-bottom: 0;
+	
+}
+
+/* Fixes the lasck of support fo inline-block for the gallery controls */
+.cj-category, #cj-gallery #cj-gallery-controls {
+	
+	zoom: 1;
+	display: inline !important;
+
+}
+
+/* The gallery controls main container */
+#cj-gallery #cj-gallery-controls {
+	
+	padding-bottom: 4px;
+	
+}
+
+/* Gallery control buttons */
+#cj-gallery .cj-info-icon,
+#cj-gallery .cj-up-icon,
+#cj-gallery .cj-close-icon {
+
+	margin-left: 6px;
+	
+}
+
+/* Other gallery controls buttons */
+#cj-gallery .cj-pause-icon,
+#cj-gallery .cj-play-icon,
+#cj-gallery .cj-right-icon {
+
+	margin-left: 7px;
+	
+}
+
+/* The music control buttons */
+#cj-gallery #cj-music-controls {
+	
+	margin-bottom: 0px;
+	padding-bottom: 2px;
+	
+}
+
+/* The contact form container */
+#cj-gallery #cj-contact-form {
+	
+	width: 302px;
+	margin: 16px 0 5px 2px;
+	
+}
+
+/* The contact form fields */
+#cj-gallery #cj-contact-form input.cj-field,
+#cj-gallery #cj-contact-form textarea {
+	
+	margin-top: 3px;
+	
+}
+
+/* The contact form submit button */
+#cj-gallery #cj-contact-form #cj-submit {
+	
+	margin: 4px 2px 0 0;
+	
+}
+
+/* All rules below are an opacity fix */
+#cj-gallery #cj-facebook-icon:hover, 
+#cj-gallery #cj-twitter-icon:hover, 
+#cj-gallery #cj-google-icon:hover {
+
+	filter: alpha(opacity=75);
+	
+}
+
+.cj-bg-click {
+	
+	filter: alpha(opacity=0);
+	
+}
+
+.cj-category:hover {
+
+	filter: alpha(opacity=75);
+	
+}
+
+.cj-no-info-hover {
+
+	filter: alpha(opacity=50);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

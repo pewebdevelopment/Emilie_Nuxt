@@ -1,0 +1,241 @@
+/* --------------------------------------------- */
+/* Author: http://codecanyon.net/user/CodingJack */
+/* --------------------------------------------- */
+
+/* The main video container */
+#cj-video-player {
+			
+	display: none;
+	line-height: 0;
+	position: absolute;
+	z-index: 1003;
+	
+	padding: 7px;
+	margin: -8px 0 0 -8px;
+	border: 1px solid #FFF;
+	background: #F5F5F5 url(../img/cj_gallery/graphics/video_preloader.gif) no-repeat center center;
+	
+	-moz-box-shadow: inset 0 0 3px 3px #DDD;
+	-webkit-box-shadow: inset 0 0 3px 3px #DDD;
+	box-shadow: inset 0 0 3px 3px #DDD;
+	
+}
+
+#cj-video-player * {
+	-webkit-box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	box-sizing: content-box !important;
+}
+
+/* The video control bar */
+#cj-vid-controls {
+
+	background: url(../img/cj_gallery/graphics/vid_bg.png) repeat-x;
+	
+	width: 640px;
+	height: 28px;
+	display: block;
+	position: relative;
+	line-height: normal;
+	
+}
+
+/* Remove unwanted image selection performed by some browsers */
+#cj-vid-controls img {
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	
+}
+
+/* The play/pause button container */
+#cj-vid-controls .cj-vid-play-pause {
+
+	float: left;
+	width: 6px;
+	margin: 5px 0 0 9px;
+	position: relative;
+	cursor: pointer;
+	
+}
+
+/* The play button */
+#cj-vid-controls .cj-vid-play {
+	
+	position: absolute;
+	padding: 3px;
+	
+}
+
+/* The pause button */
+#cj-vid-controls .cj-vid-pause {
+
+	position: absolute;
+	padding: 3px;
+	margin-top: 1px;
+	display: none;
+	
+}
+
+/* The video progress line and total line container */
+#cj-vid-controls .cj-vid-lines {
+
+	float: left;
+	width: 490px;
+	margin-top: 5px;
+	padding-left: 15px;
+	position: relative;
+	
+}
+
+/* The video total line */
+#cj-vid-controls .cj-vid-total {
+
+	width: 490px;
+	height: 2px;
+	padding: 8px 0 8px 0;
+	display: block;
+	background: url(../img/cj_gallery/graphics/vid_total.png) center left;
+	position: absolute;
+	cursor: pointer;
+	
+}
+
+/* The video progress line */
+#cj-vid-controls .cj-vid-progress {
+
+	width: 0;
+	height: 2px;
+	padding: 8px 0 8px 0;
+	display: block;
+	background: url(../img/cj_gallery/graphics/vid_progress.png) center left;
+	position: absolute;
+	cursor: pointer;
+	
+}
+
+/* The video volume button container */
+#cj-vid-controls .cj-vid-vol-buttons {
+
+	float: left;
+	width: 13px;
+	position: relative;
+	margin-top: 6px;
+	padding-left: 9px;
+	
+}
+
+/* The video volume on button */
+#cj-vid-controls .cj-vid-volume {
+
+	position: absolute;
+	padding: 3px;
+	cursor: pointer;
+	
+}
+
+/* The video volume mute button */
+#cj-vid-controls .cj-vid-mute {
+
+	position: absolute;
+	padding: 3px;
+	display: none;
+	cursor: pointer;
+	
+}
+
+/* The video volume scrub container */
+#cj-vid-controls .cj-vid-vol-lines {
+
+	float: left;
+	width: 55px;
+	margin-top: 5px;
+	padding-left: 9px;
+	position: relative;
+	
+}
+
+/* The video volume scrub total line */
+#cj-vid-controls .cj-vid-vol-total {
+
+	width: 55px;
+	height: 2px;
+	padding: 8px 0 8px 0;
+	display: block;
+	background: url(../img/cj_gallery/graphics/vid_total.png) center left;
+	position: absolute;
+	cursor: pointer;
+	
+}
+
+/* The video volume scrub current volume line */
+#cj-vid-controls .cj-vid-vol-current {
+
+	width: 25px;
+	height: 2px;
+	padding: 8px 0 8px 0;
+	display: block;
+	background: url(../img/cj_gallery/graphics/vid_progress.png) center left;
+	position: absolute;
+	cursor: pointer;
+	
+}
+
+/* The video normalscreen/fullscreen container */
+#cj-vid-controls .cj-vid-fullscreen {
+
+	float: left;
+	margin-top: 6px;
+	padding-left: 9px;
+	position: relative;
+	
+}
+
+/* The video fullscreen button */
+#cj-vid-controls .cj-vid-full {
+
+	position: absolute;
+	padding: 3px;
+	cursor: pointer;
+	
+}
+
+/* The video normal screen button */
+#cj-vid-controls .cj-vid-normal {
+
+	position: absolute;
+	padding: 3px;
+	display: none;
+	cursor: pointer;
+	
+}
+
+/* Applied to the HTML Video element itself */
+#cj-html-video {
+
+	background-color: #111;
+	outline: none;
+	
+}
+
+/* Added when the video is taken fullscreen */
+.cj-video-full {
+
+	margin: 0 !important;
+	padding: 0 !important;
+	
+}
+
+/* Adjusts the video control bar when taken fullscreen */
+.cj-vid-controls-full {
+	
+	margin-top: -28px !important;
+	
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+}

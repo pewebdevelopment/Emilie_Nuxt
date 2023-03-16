@@ -1,0 +1,104 @@
+/* --------------------------------------------- */
+/* Author: http://codecanyon.net/user/CodingJack */
+/* --------------------------------------------- */
+
+/* The main container used for the slider */
+#container {
+
+	width: 800px;
+	height: 300px;
+	margin: 0 auto 0 auto;
+	border: 5px solid #AAA;
+	-moz-box-shadow: 0px 0px 5px 2px #888;
+	-webkit-box-shadow: 0px 0px 5px 2px #888;
+	box-shadow: 0px 0px 5px 2px #888;
+	
+}
+
+/* The slider title */
+#title {
+	
+	width: 800px;
+	margin: 100px auto 10px auto;
+
+	font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #EEE;
+	
+}
+
+/* Slider control buttons */
+#cj-gallery #cj-gallery-controls {
+
+	background: none;
+	margin-bottom: -10px;
+	
+}
+
+/* The previous image button */
+#cj-gallery .cj-left-icon {
+	
+	width: 30px;
+	height: 26px;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	background: url(../img/cj_gallery/graphics/left_arrow_2.png) no-repeat;
+	
+}
+
+/* The next image button */
+#cj-gallery .cj-right-icon {
+	
+	width: 30px;
+	height: 26px;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	background: url(../img/cj_gallery/graphics/right_arrow_2.png) no-repeat;
+	
+}
+
+/* The pause slideshow button */
+#cj-gallery .cj-pause-icon {
+	
+	width: 30px;
+	height: 26px;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	background: url(../img/cj_gallery/graphics/pause_icon_2.png) no-repeat;
+	
+}
+
+/* The play slideshow button */
+#cj-gallery .cj-play-icon {
+	
+	width: 30px;
+	height: 26px;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	background: url(../img/cj_gallery/graphics/play_icon_2.png) no-repeat;
+	
+}
+
+/* Slideshow buttons mouse over state */
+#cj-gallery .cj-left-icon:hover, 
+#cj-gallery .cj-close-icon:hover, 
+#cj-gallery .cj-right-icon:hover,
+#cj-gallery .cj-play-icon:hover,
+#cj-gallery .cj-pause-icon:hover {
+	
+	opacity: 0.75;
+	background-position: left top;
+	
+}
+
+
+
+
+
+
+
+
+

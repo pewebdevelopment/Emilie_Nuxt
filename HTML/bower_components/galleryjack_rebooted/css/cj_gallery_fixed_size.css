@@ -1,0 +1,48 @@
+/* --------------------------------------------- */
+/* Author: http://codecanyon.net/user/CodingJack */
+/* --------------------------------------------- */
+
+/* 
+
+For the Fixed-size version version, we're going to set the position for multiple elements
+from fixed to absolute.  We also adjust the max height of the contact form message area slightly
+
+*/
+
+#cj-gallery #cj-thumb-tooltip,
+#cj-gallery #cj-author-info,
+#cj-gallery #cj-image-info,
+#cj-gallery #cj-preload,
+#cj-gallery #cj-footer,
+.cj-top-right-content,
+.cj-video-lightbox,
+.cj-video-button,
+.cj-video-close,
+.cj-thumb-right,
+.cj-thumb-left,
+.cj-bg-click {
+	
+	position: absolute !important;
+	
+}
+
+#cj-gallery {
+
+	z-index: 9999;
+	text-align: left;
+
+}
+
+#cj-gallery #cj-contact-form textarea {
+
+	height: 100px;
+	max-height: 200px;
+	
+}
+
+/* The main video container */
+#cj-video-player {
+			
+	z-index: 9999 !important;
+	
+}

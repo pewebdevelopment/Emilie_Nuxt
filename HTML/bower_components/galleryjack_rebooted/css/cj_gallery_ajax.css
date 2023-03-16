@@ -1,0 +1,25 @@
+/* --------------------------------------------- */
+/* Author: http://codecanyon.net/user/CodingJack */
+/* --------------------------------------------- */
+
+/* 
+
+For the AJAX version, we're going to show the preloader right away 
+as soon as the page loads (not just when the bg image is loading like usual) 
+
+*/
+
+#cj-gallery #cj-author-info {
+	
+	visibility: visible;
+				
+}
+			
+#cj-gallery #cj-info-button,
+#cj-gallery #cj-email-button,
+#cj-gallery #cj-share-button,
+#cj-gallery #cj-music-button {
+				
+	visibility: hidden;
+				
+}

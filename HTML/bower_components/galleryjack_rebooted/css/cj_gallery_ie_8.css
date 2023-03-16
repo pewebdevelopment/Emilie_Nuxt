@@ -1,0 +1,41 @@
+/* --------------------------------------------- */
+/* Author: http://codecanyon.net/user/CodingJack */
+/* --------------------------------------------- */
+
+/* The music player buttons */
+#cj-gallery .cj-music-left, 
+#cj-gallery .cj-music-right, 
+#cj-gallery .cj-music-pause, 
+#cj-gallery .cj-music-play {
+	
+	margin-left: 4px;
+	
+}
+
+/* All rules below are for an opacity fix */
+#cj-gallery #cj-facebook-icon:hover, 
+#cj-gallery #cj-twitter-icon:hover, 
+#cj-gallery #cj-google-icon:hover {
+
+	filter: alpha(opacity=75);
+	
+}
+
+.cj-category:hover {
+
+	filter: alpha(opacity=75);
+	
+}
+
+.cj-no-info-hover {
+
+	filter: alpha(opacity=50);
+	
+}
+
+.cj-bg-click {
+	
+	filter: alpha(opacity=0);
+	
+}
+
