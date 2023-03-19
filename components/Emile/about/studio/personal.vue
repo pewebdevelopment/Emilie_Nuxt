@@ -1,6 +1,6 @@
 <template>
   <div
-    class="container container mr-auto ml-auto pl-4 pr-4 w-full md:w-[750px]"
+    class="container mr-auto ml-auto pl-4 pr-4 w-full md:w-[750px]"
   >
     <div
       class="content-inner-wrap fix-paragraph-padding content-inner-wrap py-[60px]"

@@ -189,7 +189,7 @@
               Read more details
             </button>
             <button
-              class="large-button white bg-white text-gray-900 border border-gray-800 border-2 text-[14px] h-auto min-h-[49px] relative font-bold uppercase rounded-sm px-[25px]"
+              class="large-button white bg-white text-gray-900  border-gray-800 border-2 text-[14px] h-auto min-h-[49px] relative font-bold uppercase rounded-sm px-[25px]"
               onclick="location.href='#'"
             >
               See more showcase

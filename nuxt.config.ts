@@ -1,9 +1,10 @@
 export default defineNuxtConfig({
   ssr: false,
   srcDir: "./",
-  css: ["@/assets/css/main.css"],
-
+  css: ["@/assets/css/main.css",'@fortawesome/fontawesome-svg-core/styles.css'],
+  
   experimental: { payloadExtraction: false },
+  
 
   runtimeConfig: {
     process: {
@@ -29,6 +30,7 @@ export default defineNuxtConfig({
           ["defineStore", "definePiniaStore"], // import { defineStore as definePiniaStore } from 'pinia'
         ],
       },
+      
     ],
     ["@vueuse/nuxt"],
   ],
@@ -38,7 +40,10 @@ export default defineNuxtConfig({
   },
 
   //
-  plugins: [{ src: "@/plugins/amplify.ts", mode: "client" }],
+  plugins: [{ src: "@/plugins/amplify.ts", mode: "client" },
+            { src: '~/plugins/fontawesome.js', mode: 'client' },
+                       
+],
   vite: {
     // temp-fix for dev, it breaks build for now (see: https://github.com/nuxt/framework/issues/4916)
     define: {

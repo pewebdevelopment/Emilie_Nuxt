@@ -8,6 +8,7 @@ const mainStore = useMainStore();
 const styleStore = useStyleStore();
 const loading = ref(true);
 
+
 onMounted(() => {
   styleStore.setStyle(localStorage[styleKey] ?? "basic");
   /* Dark mode */
